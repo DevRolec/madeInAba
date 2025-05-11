@@ -23,6 +23,27 @@ const products = [
     image: "https://images.unsplash.com/photo-1618354691413-6f6beccbe7a7?auto=format&fit=crop&w=800&q=80",
     supplier: "Denim Dynasty",
     supplierId: "denim-dynasty"
+  },
+  {
+    id: 1,
+    name: "Aba Quality Shoes",
+    image: "https://images.unsplash.com/photo-1585386959984-a41552262d34?auto=format&fit=crop&w=800&q=80",
+    supplier: "Supreme Leather Ltd",
+    supplierId: "supreme-leather"
+  },
+  {
+    id: 2,
+    name: "Custom Ankara Bags",
+    image: "https://images.unsplash.com/photo-1592878849129-58c2f9e45f47?auto=format&fit=crop&w=800&q=80",
+    supplier: "Ankara Express",
+    supplierId: "ankara-express"
+  },
+  {
+    id: 3,
+    name: "Handmade Denim",
+    image: "https://images.unsplash.com/photo-1618354691413-6f6beccbe7a7?auto=format&fit=crop&w=800&q=80",
+    supplier: "Denim Dynasty",
+    supplierId: "denim-dynasty"
   }
 ];
 
