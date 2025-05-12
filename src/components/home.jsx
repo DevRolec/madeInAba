@@ -1,12 +1,14 @@
 import { useState } from "react";
 import { Search, ShoppingCart, User } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import  HeroImg from '../assets/hero1.jpg';
+import shoes from '../assets/Aba-shoes.jpg';
 
 const products = [
   {
     id: 1,
     name: "Aba Quality Shoes",
-    image: "https://images.unsplash.com/photo-1585386959984-a41552262d34?auto=format&fit=crop&w=800&q=80",
+    image: shoes,
     supplier: "Supreme Leather Ltd",
     supplierId: "supreme-leather"
   },
@@ -73,7 +75,7 @@ export default function HeroPage() {
 
         <div className="lg:w-1/2 mb-8 lg:mb-0">
           <img
-            src="https://images.unsplash.com/photo-1576267423445-d1b5e2631f8e?auto=format&fit=crop&w=800&q=80"
+            src={HeroImg}
             alt="Made in Aba"
             className="rounded-2xl shadow-lg w-full object-cover"
           />
