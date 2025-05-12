@@ -1,16 +1,37 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { io } from "socket.io-client";
 
-const LiveChat = () => {
+const socket = io("http://localhost:3000");
+
+const ChatBox = () => {
+  const [messages, setMessages] = useState([]);
+  const [input, setInput] = useState("");
+
   useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://embed.tawk.to/YOUR-ID-HERE/default";
-    script.async = true;
-    script.charset = "UTF-8";
-    script.setAttribute("crossorigin", "*");
-    document.body.appendChild(script);
+    socket.on("receiveMessage", (msg) => {
+      setMessages(prev => [...prev, msg]);
+    });
   }, []);
 
-  return null; // it's just script injection
+  const sendMessage = () => {
+    socket.emit("sendMessage", input);
+    setInput("");
+  };
+
+  return (
+    <div className="p-4">
+      <div className="h-48 overflow-y-auto bg-gray-100 rounded p-2 mb-2">
+        {messages.map((msg, i) => <p key={i}>{msg}</p>)}
+      </div>
+      <input
+        value={input}
+        onChange={e => setInput(e.target.value)}
+        placeholder="Type a message"
+        className="border p-2 rounded mr-2"
+      />
+      <button onClick={sendMessage} className="bg-green-600 text-white px-4 py-2 rounded">Send</button>
+    </div>
+  );
 };
 
-export default LiveChat;
+export default ChatBox;

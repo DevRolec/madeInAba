@@ -35,6 +35,7 @@ function App() {
         <Route path="/product/:id" element={<ProductPage />} />
         {/* Add more routes as needed */}
       </Routes>
+      <LiveChat />
     </Router>
   );
 }
