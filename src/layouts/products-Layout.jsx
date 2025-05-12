@@ -62,6 +62,10 @@ export default function HeroPage() {
             <option value="All">All</option>
             <option value="Fashion">Fashion</option>
             <option value="Accessories">Accessories</option>
+            <option value="Accessories">Materials</option>
+            <option value="Accessories">Shoes</option>
+            <option value="Accessories">Building Materials</option>
+            <option value="Accessories">Vehicles</option>
           </select>
         </div>
         <div>

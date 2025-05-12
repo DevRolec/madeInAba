@@ -1,4 +1,5 @@
 import React from 'react'
+import HeroImg from '../assets/hero1.jpg'
 
 const hero = () => {
   return (
@@ -24,11 +25,7 @@ const hero = () => {
 
         {/* Image Section */}
         <div className="lg:w-1/2 mb-8 lg:mb-0">
-          <img
-            src="https://images.unsplash.com/photo-1576267423445-d1b5e2631f8e?auto=format&fit=crop&w=800&q=80"
-            alt="Made in Aba"
-            className="rounded-2xl shadow-lg w-full object-cover"
-          />
+          <img src={HeroImg} alt="goods display" className="rounded-2xl shadow-lg w-full object-cover" />
         </div>
       </div>
 
