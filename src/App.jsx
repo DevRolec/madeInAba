@@ -5,6 +5,7 @@ import ProductPage from './pages/ProductPage/productPage';
 import Contact from './pages/Contact/Contact';
 import { User, ShoppingCart } from 'lucide-react';
 import LiveChat from './components/liveChat';
+import Solutions from './pages/Solution/Solution.jsx'
 
 function App() {
   return (
@@ -34,7 +35,11 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/product/:id" element={<ProductPage />} />
+<<<<<<< HEAD
         <Route path="/contact" element={<Contact />} />
+=======
+        <Route path="/Solution" element={<Solutions />} />
+>>>>>>> a6c3e43b72bfde47f1c79b3c71c35a61c90a78c9
         {/* Add more routes as needed */}
       </Routes>
       <LiveChat />
