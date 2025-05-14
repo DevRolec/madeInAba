@@ -8,6 +8,7 @@ import LiveChat from './components/liveChat';
 import Discover from './pages/Discover/Discover';
 
 
+
 function App() {
   return (
     <Router>
@@ -36,7 +37,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/product/:id" element={<ProductPage />} />
-        <Route path="/Solution" element={<Solutions />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/discover" element={<Discover />} />       {/* Add more routes as needed */}
       </Routes>
