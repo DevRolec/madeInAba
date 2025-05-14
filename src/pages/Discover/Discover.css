@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.supplier{
+    display:flex;
+    place-items: center;
+    text-align: center;
+    
+    gap:2px;
+    background: #f5f7fa;
+    padding: 20px ;
+    
+}
+.suho a:hover{
+    color:red;
+}
+.text{
+    color:rgb(120, 118, 118);
+}
+
+.follows{
+    display: flex;
+    background-color: #ffffff;
+    border:1px solid rgb(241, 233, 233);
+    padding:20px;
+    margin: 20px;
+    gap:10px;
+    place-items: center;
+    align-items: center;
+}
+button{
+    display:flex;
+    background-color: #e64545;
+    place-items: center;
+    align-items: center;
+    padding:5px 7px;
+    border-radius: 2px;
+    width:7%;
+    }
+   button .follow h5{
+        color:#ffffff;
+    }
+    .follows p{
+        color:rgb(100, 96, 96)
+    }
+    .latest{
+        display: flex;
+        justify-content: space-between;
+        place-items: center;
+        align-items: center;
+        padding:20px;
+    }
