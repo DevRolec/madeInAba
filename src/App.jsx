@@ -2,10 +2,15 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import About from './pages/About/about';
 import ProductPage from './pages/ProductPage/productPage';
+import Contact from './pages/Contact/Contact';
 import { User, ShoppingCart } from 'lucide-react';
 import LiveChat from './components/liveChat';
+<<<<<<< HEAD
 import Discover from './pages/Discover/Discover';
 import Promotions from './pages/Promotions/Promotions';
+=======
+import Solutions from './pages/Solution/Solution.jsx'
+>>>>>>> 2f97d366ee1d0989f8ce94c0dd53db79ed82f187
 
 function App() {
   return (
@@ -35,8 +40,13 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/product/:id" element={<ProductPage />} />
+<<<<<<< HEAD
         <Route path="/discover" element={<Discover />} />
         <Route path="/promotions" element={<Promotions />} />
+=======
+        <Route path="/Solution" element={<Solutions />} />
+        <Route path="/contact" element={<Contact />} />
+>>>>>>> 2f97d366ee1d0989f8ce94c0dd53db79ed82f187
         {/* Add more routes as needed */}
       </Routes>
       <LiveChat />
