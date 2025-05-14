@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.body{
+    background-color: #F5F7FA;
+    padding: 20px 3%;
+}
+.body1{
+    background-color: #FFFFFF;
+    border: 1px solid #A1AAB2;
+    
+    
+    height: 60vh;
+}
+.firsthead{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 13px;
+    color:#0c4d22;
+}
+.form1{
+    margin-bottom: 30px;
+    margin-left: 7%;
+}
+#from{
+    border: 1px solid #A1AAB2;
+    margin-left: 10px;
+    width: 60%;
+    height: 25px;
+    padding: 15px 10px;
+    font-size: 14px;
+}
+#from ::placeholder{
+    color:#A1AAB2;
+    
+}
+label{
+    font-size: 16.5px;
+    font-weight: 400;
+    font-style: normal;
+    color:#0c4d22;
+}
+.asterisk{
+    color: red;
+}
+.form2{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    margin-left: 8.8%;
+}
+.dev{
+   display: flex;
+   align-items: center;
+  
+}
+
+.dev1{
+    width: 20px;
+    height: 20px; 
+}
+.devr{
+    color: #A1AAB2;
+}
+.msgtext{
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 5%;
+}
+#message{
+    border: 1px solid #A1AAB2;
+    width: 120%;
+    height: 100px;
+    font-size: 14px;
+    padding: 3px 10px;
+    margin-left: 10px;
+}
+.ta{
+   color: #A1AAB2;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.stp{
+    display: flex;
+    gap: 10px;
+    height: 50px;
+    margin-top: 10px;
+    align-items: center;
+}
+.btns{
+    background-color: #0c4d22;
+    color: #FFFFFF;
+   padding: 5px 7px;
+}
+.target{
+    color:#0c4d22;
+}
+.this p{
+     color: #A1AAB2;
+}
+.post p{
+  color:#0c4d22;
+}
+.target{
+    display: flex;
+    align-items: center;
+}
