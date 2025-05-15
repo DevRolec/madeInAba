@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.First-Holder{
+    padding: 5px 1rem;
+    width: 100%;
+}
+.Header{
+    margin-top: 10px;   
+}
+.Header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Solutions{
+    margin-top: 2rem;
+    background: #F5F7FA;
+    width: 100%;
+    height: 20rem;
+    padding: 1rem 1rem;
+}
+.gap{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.gap h4{
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px; 
+}
+.gap p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px; 
+}
+.Full-folder{
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+}
+.First-oem{
+    display: flex;
+    gap: 7px;
+}
+.First-oem img{
+    width: 30%;
+    height: 30vh;
+}
+.SP{
+    margin-top: 2rem;
+}
+.SP h1{
+    font-size: 11px;
+    font-weight: 700;
+}
+.SP p{
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.SP button{
+    border: 0;
+    outline: 0;
+    flex: 1;
+}
+.oem{
+    font-size: 11px;
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.Sample-Order{
+    display: flex;
+    gap: 7px;
+}
+.Sample-Order img{
+    width: 30%;
+    height: 30vh;
+}
+.SK{
+    margin-top: 2rem;
+}
+.SK h1{
+    font-size: 11px;
+    font-weight: 700;
+}
+.SK p{
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Second-folder{
+    width: 100%;
+    margin-top: 2rem;
+}
+.Fact{
+    display: flex;
+    gap: 7px;
+}
+.Fact img{
+    width: 20%;
+    height: 20vh;
+}
+.SO{
+   margin-top: 10px;
+}
+.SO h1{
+    font-size: 11px;
+    font-weight: 700;
+}
+.SO p{
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*-----Second---HEadr--- */
+
+.Second-Header{
+    padding: 5px 1rem;
+    width: 100%;
+}
+.Spl{
+    background: #F5F7FA;
+    width: 100%;
+    height: 16rem;
+    padding: 1rem 1rem;
+}
+.Tinker{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.Tinker h4{
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px; 
+}
+.fo{
+    padding: 12px 4rem;
+}
+.fo label{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.fo h4{
+    font-size: 10px;
+    gap: 2px;
+    color: #4d4747;
+}
+.fo h4 span{
+    color: #D92121;
+}
+.fo input{
+    border: 1px solid #cecccc;
+    width: 70%;
+    border-radius: 3px;
+    font-size: 11px;
+    padding: 2px 5px;
+}
+
+/*-----------Second form------------- */
+
+.fx{
+    padding: 2px 4.7rem;
+}
+.fx label{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.fx h4{
+    font-size: 10px;
+    gap: 2px;
+    color: #4d4747;
+}
+.fx h4 span{
+    color: #D92121;
+}
+.fx h3{
+    font-size: 9px;
+    gap: 2px;
+    color: #4d4747;
+}
+
+/*--------------Third FoRm----------*/
+
+.fr{
+    padding: 0 3rem;
+}
+.fr label{
+    display: flex;
+    gap: 5px;
+}
+.fr h4{
+    font-size: 10px;
+    gap: 2px;
+    color: #4d4747;
+}
+.fr h4 span{
+    color: #D92121;
+}
+.Op{
+    width: 60%;
+}
+.hre{
+    padding: 2px 6.2rem;
+  
+}
+.hre h4{
+    font-size: 10px;
+    gap: 2px;
+    color: #4d4747;
+}
+.Fore{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 10px;
+}
+.Win{
+    background: #D92121;
+    padding: 3px 10px;
+    border-radius: 3px;
+    color: #F5F7FA;
+    text-align: center;
+    display: flex;
+    font-size: 12px;
+}
+.Fore h5{
+    font-size: 10px;
+    color: #4d4747;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Fore h6{
+    font-size: 11px;
+    color: #D92121;
+}
+.Fore h6 a{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
